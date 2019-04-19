@@ -64,3 +64,11 @@ export function corsSuccessResponse(json: IJSON) {
     allowCORS: true,
   });
 }
+
+export function corsUnauthorizedResponse(json: IJSON) {
+  return lambdaResponse({
+    json,
+    statusCode: 403,
+    allowCORS: true,
+  });
+}
