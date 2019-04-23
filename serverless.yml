@@ -28,6 +28,13 @@ custom:
     webpackConfig: ./webpack.config.js
     includeModules: true
     packager: 'yarn' # Packager that will be used to package your external modules
+  customDomain:
+    domainName: 'serverless.100starlings.com'
+    # stage: ci
+    basePath: api
+    # certificateName: 'serverless.100starlings.com'
+    createRoute53Record: true
+    endpointType: 'edge'
 
 functions:
   mercuryParser:
@@ -61,3 +68,4 @@ functions:
 plugins:
   - serverless-webpack
   - serverless-offline
+  - serverless-domain-manager
