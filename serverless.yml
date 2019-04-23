@@ -29,7 +29,7 @@ custom:
     includeModules: true
     packager: 'yarn' # Packager that will be used to package your external modules
   customDomain:
-    domainName: 'serverless.100starlings.com'
+    domainName: 'mercury.bear.app'
     # stage: ci
     basePath: api
     # certificateName: 'serverless.100starlings.com'
