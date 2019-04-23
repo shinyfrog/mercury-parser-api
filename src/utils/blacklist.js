@@ -7,6 +7,9 @@ export const URL_BLACKLIST = [
   'forums.adobe.com',
   'https://www.volkskrant.nl',
   'https://www.managementimpact.nl',
+  'https:/medium.com',
+  'https:/link.medium.com',
+  'https://www.nytimes.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
