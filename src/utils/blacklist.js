@@ -106,6 +106,11 @@ export const URL_BLACKLIST = [
   'https://theinitium.com',
   'https://my.stridesapp.com',
   'https://www.gnu.org',
+  'https://note.youdao.com',
+  'https://ulysses.app',
+  'https://www.geckoboard.com',
+  'https://api.xiaoheihe.cn',
+  'https://article.xuexi.cn',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
