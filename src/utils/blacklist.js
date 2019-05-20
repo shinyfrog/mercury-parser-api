@@ -183,7 +183,6 @@ export const URL_BLACKLIST = [
   'https://www.e-pages.dk',
   'https://funevo.com',
   'https://news.futunn.com',
-  'https://articles.mercola.com',
   'http://www.jadaliyya.com',
   'https://xw.qq.com',
   'https://thechive.com',
@@ -195,6 +194,20 @@ export const URL_BLACKLIST = [
   'https://www.gastronom.ru',
   'https://genius.com',
   'https://www.inkstonenews.com',
+  'https://parallelthoughts.xyz',
+  'http://www.moranbong.co.jp',
+  'http://www.sport.gov.cn',
+  'https://www.ica.se',
+  'http://tsutawarudesign.com',
+  'https://www.southernliving.com',
+  'https://www.blackmagicdesign.com',
+  'http://www.alexandrafranzen.com',
+  'https://www.zeit.de',
+  'https://www.buzzfeed.com',
+  'http://www.dapenti.com',
+  'https://www.rhymezone.com',
+  'https://developer.apple.com',
+  'https://www.mirrormedia.mg',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
