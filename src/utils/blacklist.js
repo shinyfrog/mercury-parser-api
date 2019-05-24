@@ -208,6 +208,9 @@ export const URL_BLACKLIST = [
   'https://www.rhymezone.com',
   'https://developer.apple.com',
   'https://www.mirrormedia.mg',
+  'https://touchtunes.helpshift.com',
+  'https://www.bmw.com',
+  'http://coachellavalleyweekly.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
