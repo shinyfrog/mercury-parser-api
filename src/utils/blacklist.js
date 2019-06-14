@@ -231,6 +231,11 @@ export const URL_BLACKLIST = [
   'https://steamcommunity.com',
   'https://www.cookinglight.com',
   'https://www.timeout.com',
+  'https://juejin.im',
+  'https://www.4soundengineers.com',
+  'https://us16.campaign-archive.com',
+  'https://www.google.com',
+  'https://blog.naver.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
