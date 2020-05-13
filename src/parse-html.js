@@ -1,4 +1,4 @@
-import Mercury from '@postlight/mercury-parser';
+    import Mercury from '@postlight/mercury-parser';
 
 import {
   isURLBlacklisted,
@@ -31,8 +31,19 @@ const parseHtml = async ({ body, headers }, context, cb) => {
 
   // ---
 
-  const result = await Mercury.parse(url);
-  // const result = await Mercury.parse(url, { html });
+  let result;
+
+  if ( url.indexOf('https://goo.gl') == 0) {
+
+    result = await Mercury.parse(url, {fallback:false});
+    result.url = url;
+    result.content = ' ';
+
+  } else {
+
+      result = await Mercury.parse(url);
+      // const result = await Mercury.parse(url, { html });
+  }
 
   console.log(
     `url: ${url}\nresult: ${

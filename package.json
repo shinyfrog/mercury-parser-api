@@ -9,8 +9,6 @@
     "deploy": "cross-env NODE_ENV=dev yarn deploy:env",
     "deploy:prod": "cross-env NODE_ENV=prod yarn deploy:env",
     "deploy:stage": "cross-env NODE_ENV=stage yarn deploy:env",
-    "lint": "tslint -c tslint.json --fix './src/**/*.ts' && eslint ./src --fix",
-    "precommit": "lint-staged",
     "serve": "serverless offline start",
     "serve:watch": "nodemon -e js,ts,jsx,tsx -x serverless offline start",
     "tail:parser": "serverless logs --function mercuryParser --tail",

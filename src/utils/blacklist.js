@@ -27,7 +27,6 @@ export const URL_BLACKLIST = [
   'https://m.toutiaocdn.com',
   'https://outline.com',
   'https://www.zhihu.com',
-  'https://zhuanlan.zhihu.com',
   'https://www.evernote.com',
   'https://www.pathofexile.com',
   'http://www.wollongong.nsw.gov.au',
@@ -236,6 +235,15 @@ export const URL_BLACKLIST = [
   'https://us16.campaign-archive.com',
   'https://www.google.com',
   'https://blog.naver.com',
+  'https://t.me',
+  'https://www.aliway.com',
+  'https://www.xfinity.com',
+  'http://www.voicer.me',
+  'https://www.donationcoder.com',
+  'https://immutables.github.io',
+  'https://pappautengluten.no',
+  'https://www.abebooks.com',
+  'https://www.uisdc.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
