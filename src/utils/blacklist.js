@@ -244,6 +244,11 @@ export const URL_BLACKLIST = [
   'https://pappautengluten.no',
   'https://www.abebooks.com',
   'https://www.uisdc.com',
+  'https://www.holualoainn.com',
+  'https://receptfavoriter.se',
+  'https://canvas.unl.edu',
+  'https://apply.workable.com',
+  'https://www.metzler.com'
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
