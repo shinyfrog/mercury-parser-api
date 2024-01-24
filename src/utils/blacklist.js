@@ -248,7 +248,18 @@ export const URL_BLACKLIST = [
   'https://receptfavoriter.se',
   'https://canvas.unl.edu',
   'https://apply.workable.com',
-  'https://www.metzler.com'
+  'https://www.metzler.com',
+  'https://www.getdrip.com',
+  'http://perinalucaenaipelettro.altervista.org',
+  'https://www.chase.com',
+  'https://www.discover.com',
+  'https://www.citi.com',
+  'https://bear.app',
+  'https://studiovaaro.com',
+  'https://www.fileside.app',
+  'https://evotec.xyz',
+  'https://www.flowable.com',
+  'https://www.thedesignerstoolbox.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
