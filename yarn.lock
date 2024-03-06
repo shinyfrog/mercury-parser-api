@@ -852,9 +852,9 @@
     dotenv "^6.2.0"
     node-fetch "^2.3.0"
 
-"@postlight/mercury-parser@https://github.com/shinyfrog/mercury-parser.git":
-  version "2.2.0"
-  resolved "https://github.com/shinyfrog/mercury-parser.git#325eb99da94805956aae1454b45684a48526ebe1"
+"@postlight/mercury-parser@https://github.com/shinyfrog/mercury-parser.git#master":
+  version "2.2.1"
+  resolved "https://github.com/shinyfrog/mercury-parser.git#e6fbcaeaff961c8c6495622620405fbcb8ac79ca"
   dependencies:
     "@babel/runtime-corejs2" "^7.2.0"
     "@postlight/ci-failed-test-reporter" "^1.0"
@@ -8746,10 +8746,10 @@ serverless-domain-manager@^3.2.1:
     aws-sdk "^2.490.0"
     chalk "^2.4.1"
 
-serverless-offline@^4.0.0:
-  version "4.10.6"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-4.10.6.tgz#bdbb3f4b4429e649665c9267f3d3cb2c662010cb"
-  integrity sha512-4l8ngzsX90iq8SRm4wGzGv0688bKPCAXYm60dqaW1ipXVp1BvV/BcFQp+4UKPUnkzSqqvyisLc6oa3K7kkAAZw==
+serverless-offline@=4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-4.10.0.tgz#608ae9e1a85886fc80532610ff06e9e684e99901"
+  integrity sha512-5UnPVv2Sljl2TVxLmdJ3knPAwf/EmFEqumF+bEfRifah+1SuJV5JtNGVphoVmdeV24qngat2Wd/VRM43S7ipqw==
   dependencies:
     boom "^7.3.0"
     cryptiles "^4.1.3"
