@@ -260,6 +260,7 @@ export const URL_BLACKLIST = [
   'https://evotec.xyz',
   'https://www.flowable.com',
   'https://www.thedesignerstoolbox.com',
+  'coachlisabond.com',
 ];
 
 export const EMPTY_MERCURY_RESPONSE = {
